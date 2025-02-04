@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">Travel with Us</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>Explore the World with Us</h1>
+            <p>Your adventure starts here!</p>
+            <button id="exploreBtn">Explore</button>
+        </div>
+        <img src="img1.jpg" alt="Tourism Hero Image" class="hero-image">
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <img src="adventure-trips-in-india_1440486703_aNbqdJ.avif" alt="Adventure Tours">
+                <h3>Adventure Tours</h3>
+                <p>Experience the thrill of adventure with our exclusive tour packages.</p>
+            </div>
+            <div class="card">
+                <img src="b7cf1adc-b000-11e8-b224-884456d4cde1_1280x720_165137.webp" alt="Luxury Vacations">
+                <h3>Luxury Vacations</h3>
+                <p>Relax and unwind in the world's most luxurious destinations.</p>
+            </div>
+            <div class="card">
+                <img src="India-Cultural-Tours.jpg" alt="Cultural Trips">
+                <h3>Cultural Trips</h3>
+                <p>Immerse yourself in local cultures and traditions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <img src="IMG-20241129-WA0120.jpg" alt="Client 1">
+                <p>"The best vacation I've ever had! Highly recommend!"</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="testimonial">
+                <img src="99d98eb1fd025e2eb9198e4988d9de85.jpg" alt="Client 2">
+                <p>"Incredible experience, amazing guides, and unforgettable memories!"</p>
+                <h4>- Jane Smith</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
